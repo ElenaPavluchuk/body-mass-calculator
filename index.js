@@ -12,7 +12,7 @@ function handleChangeHeight(event) {
 
 function handleClick() {
     const weightInput = document.getElementById("weight-input");
-    const weightElement = weightInput.value;
+    const weightElement = weightInput.value*10000;
     const heightInput = document.getElementById("height-input");
     const heightElement = heightInput.value**2;
     const resultElement = weightElement / heightElement;
